@@ -1,5 +1,3 @@
-Link docker hub: 
-
 # Desafio Go - Full Cycle
 
 Este repositório contém a solução para o desafio do módulo de Docker do curso Full Cycle. O objetivo era criar uma aplicação em Go que, ao ser executada via um container Docker, exibisse a mensagem "Full Cycle Rocks!!", com a restrição de que a imagem final tivesse menos de 2MB.
@@ -64,5 +62,3 @@ A saída esperada
 ```
 Full Cycle Rocks!!
 ```
-
-Divirta-se!
