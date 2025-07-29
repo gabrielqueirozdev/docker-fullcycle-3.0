@@ -8,7 +8,7 @@ RUN go mod tidy
 
 RUN CGO_ENABLED=0 GOOS=linux go build -ldflags="-s -w" -o /fullcycle .
 
-FROM gcr.io/distroless/static
+FROM scratch
 
 WORKDIR /
 
